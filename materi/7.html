@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <h1 class="judul">Git Merge Conflict</h1>
+
+        <div class="container-main2">
+            <ul>
+                <li>Membuat branch baru</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/1.webp" />
+                </div>
+                <li>edit file <b>mahasiswa.html</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/2.webp" />
+                </div>
+                <li>commit add dan modified</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/3.webp" />
+                </div>
+                <li>
+                    kita ubah ke branch master dan mengubah file
+                    <b>mahasiswa.html</b>
+                </li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/4.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/5.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/6.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>kita merge maka akan ada conflict</h2>
+
+            <div class="container-gmb">
+                <img src="../asset/img/7/7.webp" />
+            </div>
+
+            <div class="container-gmb">
+                <img src="../asset/img/7/8.webp" />
+            </div>
+
+            <div class="container-gmb">
+                <img src="../asset/img/7/9.webp" />
+            </div>
+
+            <ul>
+                <li>kita <b>git status</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/10.webp" />
+                </div>
+                <li>
+                    kita simpan dulu yang sudah dimodifikasi kedalam staging
+                </li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/11.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/12.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/13.webp" />
+                </div>
+                <li>kita hapus <b>branch dev</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/14.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>kita akan checkout ke sebuah commit</h2>
+
+            <ul>
+                <li>kita git log</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/15.webp" />
+                </div>
+                <li>kita pilh dan ambil 7 dari commit nya</li>
+                <li>untuk keluar dari log ketik <b>q</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/16.webp" />
+                </div>
+                <li>
+                    kita akan ada di keadaan <b>detached HEAD</b> : poin
+                    head nya lepas dari branch
+                </li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/17.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>kembali ke commit dari mengulang lagi</h2>
+
+            <ul>
+                <li>kembali ke branch master</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/18.webp" />
+                </div>
+                <li>kembali ke commit tadi</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/19.webp" />
+                </div>
+                <li>buat branch baru di commit</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/20.webp" />
+                </div>
+                <li>kita arahkan HEAD nya ke test</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/7/21.webp" />
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

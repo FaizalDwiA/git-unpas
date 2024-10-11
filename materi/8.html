@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-main">
+    <h1 class="judul">Git Remote</h1>
+
+    <div class="container-main2">
+      <h2>Ilustrasi</h2>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/1.webp" />
+      </div>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/2.webp" />
+      </div>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/3.webp" />
+      </div>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/4.webp" />
+      </div>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/5.webp" />
+      </div>
+
+      <hr />
+
+      <h2>buat repo baru</h2>
+
+      <ul>
+        <li>tekan tanda tambah</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/6.webp" />
+        </div>
+        <li>ketik nama dan descripsi</li>
+        <li>klik public da readme</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/7.webp" />
+        </div>
+        <li>kita copy alamat HTTPS</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/8.webp" />
+        </div>
+      </ul>
+
+      <hr />
+
+      <ul>
+        <li>buka git bash di desktop</li>
+        <li>kemudian kita clone</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/9.webp" />
+        </div>
+        <li>
+          kita ketik
+          <b>git remote</b> akan muncul origin
+        </li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/10.webp" />
+        </div>
+        <li>nah ini secara default remote itu harus punya nama</li>
+        <li>
+          nah ketika kita cloning dari github itu otomatis nama default nya
+          origin
+        </li>
+        <li>
+          kalo kita tulis
+          <b>git remote -v</b>
+        </li>
+        <ul>
+          <li>-v : verbose : melihat data lebih detail</li>
+        </ul>
+        <div class="container-gmb">
+          <img src="../asset/img/8/11.webp" />
+        </div>
+      </ul>
+
+      <hr />
+
+      <h2>git status</h2>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/12.webp" />
+      </div>
+
+      <ul>
+        <li>
+          jadi katanya : branch yang kita punya itu sudah dama dengan branch
+          yang ada diorigin kita yang namanya master
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>Graph</h2>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/13.webp" />
+      </div>
+
+      <hr />
+
+      <ul>
+        <li>kita tambahkan file baru</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/14.webp" />
+        </div>
+        <li>ketik <b>git status</b></li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/15.webp" />
+        </div>
+        <li>
+          artinya : branch yang kita punya itu mendahului origin dengan 1
+          commit
+        </li>
+        <li>kalo kita <b>graph</b></li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/16.webp" />
+        </div>
+      </ul>
+
+      <hr />
+
+      <h2>Push</h2>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/17.webp" />
+      </div>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/18.webp" />
+      </div>
+
+      <hr />
+
+      <h2>git config --list</h2>
+
+      <div class="container-gmb">
+        <img src="../asset/img/8/19.webp" />
+      </div>
+
+      <hr />
+
+      <h2>kalo baru punya dilocal digithub belum ada</h2>
+
+      <ul>
+        <li>buat folder baru</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/20.webp" />
+        </div>
+        <li>kita <b>git init</b></li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/21.webp" />
+        </div>
+        <li>buat file baru</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/22.webp" />
+        </div>
+        <li>kita add dan commit</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/23.webp" />
+        </div>
+        <li>kita <b>graph</b></li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/24.webp" />
+        </div>
+      </ul>
+
+      <hr />
+
+      <h2>kita simpan ke dalam github</h2>
+
+      <ul>
+        <li>kita buat repo baru</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/25.webp" />
+        </div>
+        <li>kita tambah remote baru</li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/26.webp" />
+        </div>
+        <li>kita <b>git push</b></li>
+        <div class="container-gmb">
+          <img src="../asset/img/8/27.webp" />
+        </div>
+
+        <hr />
+
+        <h2>
+          digithub sudah ada, dilocal sudah ada, dilocal diubah dan digithub
+          juga diubah
+        </h2>
+
+        <ul>
+          <li>menambahkan fille css</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/28.webp" />
+          </div>
+          <div class="container-gmb">
+            <img src="../asset/img/8/29.webp" />
+          </div>
+          <li>tambahkan di github file baru css juga tapi beda isi</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/30.webp" />
+          </div>
+          <li>yang dilocal kita juga add</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/31.webp" />
+          </div>
+          <li>ketika kita <b>push</b> ada pesan error / gagal</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/32.webp" />
+          </div>
+          <li>katanya : push kalian ditolak</li>
+          <ul>
+            <li>karena kemungkinan diremote nya ada perubahan</li>
+            <li>katanya : solusi nya <b>git pull</b></li>
+          </ul>
+          <li>kita ketik <b>git fetch</b></li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/33.webp" />
+          </div>
+          <ul>
+            <li>
+              dia akan mengeek repo yang ada diremote sudah sampai mana beda
+              tidak sama yang kita punya.
+            </li>
+          </ul>
+          <li>kita <b>git status</b></li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/34.webp" />
+          </div>
+          <li>tulisannya : jadi 2<sup>2</sup>nya bikin cabang berbeda</li>
+          <li>kalo tulis graph</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/35.webp" />
+          </div>
+          <li>kita membuat cabang local dan remote bikin branch baru</li>
+          <li>solusi : kita merge dulu, kita bisa <b>git pull</b></li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/36.webp" />
+          </div>
+          <li>kita merge confilt</li>
+          <li>kita atur confilt nya dulu</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/37.webp" />
+          </div>
+          <div class="container-gmb">
+            <img src="../asset/img/8/38.webp" />
+          </div>
+          <li>kalo sudah diresolve</li>
+          <li>coba kita cek status</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/39.webp" />
+          </div>
+          <li>kita disuruh add baru commit</li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/40.webp" />
+          </div>
+          <li>kita cek status dan kemudian kita <b>git push</b></li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/41.webp" />
+          </div>
+          <li>kita <b>graph</b></li>
+          <div class="container-gmb">
+            <img src="../asset/img/8/42.webp" />
+        </ul>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

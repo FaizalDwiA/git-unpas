@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <h1 class="judul">Git Branch Merge</h1>
+
+        <div class="container-main2">
+            <ul>
+                <li>buat folder baru <b>faizal-test-repo2</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/1.webp" />
+                </div>
+                <li>kita insialisasi git</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/2.webp" />
+                </div>
+                <li>kita buat file baru <b>mahasiswa.html</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/3.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/4.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/5.webp" />
+                </div>
+                <li>kita edit</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/6.webp" />
+                </div>
+                <li>-am : add, message</li>
+            </ul>
+
+            <hr />
+
+            <h2>git branch</h2>
+
+            <ul>
+                <li>melihat branch</li>
+            </ul>
+
+            <div class="container-gmb">
+                <img src="../asset/img/6/7.webp" />
+            </div>
+
+            <hr />
+
+            <h2>git branch [branch-baru]</h2>
+
+            <ul>
+                <li>membuat branch baru</li>
+            </ul>
+
+            <div class="container-gmb">
+                <img src="../asset/img/6/8.webp" />
+            </div>
+
+            <hr />
+
+            <h2>git log --all --decorate --oneline --graph</h2>
+
+            <div class="container-gmb">
+                <img src="../asset/img/6/9.webp" />
+            </div>
+
+            <hr />
+
+            <h2>membuat alias</h2>
+
+            <div class="container-gmb">
+                <img src="../asset/img/6/10.webp" />
+            </div>
+
+            <hr />
+
+            <h2>berpindah branch</h2>
+
+            <ul>
+                <li><b>git checkout [nama-branch]</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/11.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <ul>
+                <li>buat file baru nama <b>desen.html</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/12.webp" />
+                </div>
+                <li>kemudia kita tambahkan dan commit</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/13.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/14.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>kita pindah ke branch staff</h2>
+
+            <ul>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/15.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/16.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/17.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>Jenis Merge</h2>
+
+            <ul>
+                <li>Fast Forward</li>
+                <li>Three-way Merge</li>
+            </ul>
+
+            <hr />
+
+            <h2>Fast Forward</h2>
+
+            <ul>
+                <li>
+                    terjadi ketika branch yang kita gabungkan itu berada
+                    dalam jalur langsung / direct path
+                </li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/18.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/19.webp" />
+                </div>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/20.webp" />
+                </div>
+                <hr />
+                <div class="container-gmb">
+                    <img src="../asset/img/6/21.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>Menghapus Branch</h2>
+
+            <ul>
+                <li>perintah branch yang sudah dimerge</li>
+                <li><b>git branch --merge</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/22.webp" />
+                </div>
+                <hr />
+                <li>menghapus branch</li>
+                <li><b>git branch -d dosen</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/23.webp" />
+                </div>
+                <hr />
+                <li>jika ingin menghapus branch staf</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/24.webp" />
+                </div>
+            </ul>
+
+            <hr />
+
+            <h2>Merge staff (Three-way Merge)</h2>
+
+            <ul>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/25.webp" />
+                </div>
+                <li>Three-way Merge : ngemerge sambil ngomit</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/26.webp" />
+                </div>
+                <hr />
+                <li><b>git merge staf -m "[pesan]"</b></li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/27.webp" />
+                </div>
+                <li>menghapus branch staf</li>
+                <div class="container-gmb">
+                    <img src="../asset/img/6/28.webp" />
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
